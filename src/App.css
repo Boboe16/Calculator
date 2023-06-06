@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(to right,
+    #000000 0%,
+    #111111 8.33%,
+    #222222 16.66%,
+    #333333 24.99%,
+    #444444 33.32%,
+    #555555 41.65%,
+    #666666 49.98%,
+    #777777 58.31%,
+    #888888 66.64%,
+    #999999 74.97%,
+    #aaaaaa 83.3%,
+    #bbbbbb 91.63%,
+    #cccccc 99.96%,
+    #ffffff 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  border: solid;
+  border-radius: 4px;
+}
+
+button {
+  height: 100px;
+}
+
+#Input{
+  height:70.41px;
+  position: relative;
+  overflow-x:scroll;
+  overflow-y:hidden;
+}
+
+#Input h1{
+  width: 100%;
+  float: none;
+  height: 90%;
+  margin: 0 0.25%;
+  display: inline-block;
+  zoom: 1;
+}
+#Input, #Output {
+  background-color: #6c757d;
+}
+
+#Input h1 {
+  float: right;
+  justify-content: end;
+}
+
+#InputAndOutput {
+  border-bottom: solid;
+}
+
+.btn-no-radius {
+  border-radius: 0 !important;
+}
+
+.row > * {
+  padding-right: unset;
+  padding-left: unset;
+}
