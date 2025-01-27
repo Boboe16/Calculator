@@ -8,7 +8,11 @@ function App() {
 	var [input, setInput] = useState('')
 
 	function reducer(state, action) {
-		return '=' + eval(action)
+		try {
+			return '=' + eval(action)
+		} catch {
+			return "Marunong kaba gumamit ng calculator? "
+		}
 	}
 
 	var [output, dispatchOutput] = useReducer(reducer, '=')

@@ -32,6 +32,10 @@ button {
   height: 100px;
 }
 
+h1, h4 {
+  color: white;
+}
+
 #Input{
   height:70.41px;
   position: relative;
@@ -48,7 +52,7 @@ button {
   zoom: 1;
 }
 #Input, #Output {
-  background-color: #6c757d;
+  background-color: #212529;
 }
 
 #Input h1 {
